@@ -1,11 +1,22 @@
 {
   "name": "favorvite",
   "version": "0.0.0",
+  "description": "Just another opinionated Vite starter template.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
   },
+  "keywords": [
+    "vite",
+    "template",
+    "starter-kit",
+    "vue3",
+    "typescript",
+    "tailwindcss"
+  ],
+  "author": "Gustavo Leindecker",
+  "license": "MIT",
   "dependencies": {
     "vue": "^3.0.7"
   },
