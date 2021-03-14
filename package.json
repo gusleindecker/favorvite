@@ -1,12 +1,8 @@
 {
   "name": "favorvite",
   "version": "0.0.0",
+  "author": "Gustavo Leindecker",
   "description": "Just another opinionated Vite starter template.",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
-  },
   "keywords": [
     "vite",
     "template",
@@ -15,14 +11,24 @@
     "typescript",
     "tailwindcss"
   ],
-  "author": "Gustavo Leindecker",
   "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint --ext .ts,vue --ignore-path .gitignore ."
+  },
   "dependencies": {
     "vue": "^3.0.7"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
     "@vitejs/plugin-vue": "^1.1.5",
     "@vue/compiler-sfc": "^3.0.7",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "eslint": "^7.22.0",
+    "eslint-plugin-vue": "^7.7.0",
     "typescript": "^4.2.3",
     "vite": "^2.0.5",
     "vite-plugin-windicss": "^0.6.11"
