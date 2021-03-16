@@ -1,10 +1,16 @@
-# Vue 3 + Typescript + Vite (WIP)
+# Favorvite (WIP)
 
-This template should help get you started developing with Vue 3 and Typescript in Vite.
+## An starter template with Vite + Vue 3 + Typescript + Windi CSS + ESLint + Prettier
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur). Make sure to enable `vetur.experimental.templateInterpolationService` in settings!
+#### [VSCode](https://code.visualstudio.com/) with the following extensions enabled
+
+| name                                                                                       | description                                 |
+|--------------------------------------------------------------------------------------------|---------------------------------------------|
+| [ESlint](https://github.com/Microsoft/vscode-eslint)                                       | Integrates ESLint into VS Code.             |
+| [Prettier](https://github.com/prettier/prettier-vscode)                                    | Code formatter using prettier.              |
+| [Vetur](https://github.com/vuejs/vetur)                                                    | Vue tooling for VS Code.                    |
 
 ### If Using `<script setup>`
 
